@@ -1,19 +1,13 @@
-import faker from "faker";
+
 
 console.log("this is working great");
 
 //import into this file
-import { Student } from "./student";
-import { Internship } from "./internship";
-
-
-
-import { Student } from "./Student";
+import { Students } from "./Students";
 import { Internship } from "./Internship";
 import { CustomizedMap } from "./CustomizedMap";
 const map = new CustomizedMap("map");
-const student = new Student();
+const student = new Students();
 const internship = new Internship();
 map.addPin(student);
 map.addPin(internship);
-

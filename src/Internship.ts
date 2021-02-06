@@ -1,21 +1,6 @@
 import faker from "faker";
 
-class internship{
-    busName: string;
-    location: {
-        lon: number;
-        lat: number;
-    }
 
-    get BusinessName(): string {
-        return this.busName;
-    }
-
-    get internshipLocation(): { lon: number; lat: number } {
-        return this.location;
-    }
-
-}
 
 
 export class Internship {
